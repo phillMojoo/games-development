@@ -1,0 +1,18 @@
+body{
+background-image: url("CPU.jpg");
+background-repeat: no-repeat;
+background-size:1500px;
+}
+
+#loginArea{
+color:rgb(206, 186, 10);
+border-radius: 30px;
+border-width: 3px;
+border-color:black;
+border-style:groove;
+background-color: rgb(0, 0, 0, 0.9);
+padding: 30px;
+position:absolute;
+left: 30%;
+top: 20%;
+}

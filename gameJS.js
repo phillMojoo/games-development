@@ -1,10 +1,12 @@
 (function(){
 
-    let loginScene=document.getElementById("loginArea");
-    let gameScene=document.getElementById("gameScene");
     let userName=document.getElementById("userName");
     let password=document.getElementById("password");
     let loginButton=document.getElementById("loginButton");
+    let loginScene=document.getElementById("loginArea");
+    let gameScene=document.getElementById("gameScene");
+
+  
     
 
 
@@ -17,6 +19,12 @@
         gameScene.style.display="inline";
 
     })
+
+    upButton.addEventListener("click", function(){
+
+        
+    })
+
 
     
 

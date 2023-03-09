@@ -16,3 +16,16 @@ position:absolute;
 left: 30%;
 top: 20%;
 }
+
+#gameScene{
+color:rgb(206, 186, 10);
+border-radius: 30px;
+border-width: 3px;
+border-color:black;
+border-style:groove;
+background-color: rgb(0, 0, 0, 0.9);
+padding: 100px;
+position: absolute;
+left: 40%;
+top:20%;
+}

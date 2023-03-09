@@ -5,6 +5,7 @@
     let loginButton=document.getElementById("loginButton");
     let loginScene=document.getElementById("loginArea");
     let gameScene=document.getElementById("gameScene");
+    let ballImage=document.getElementById("ball");
 
   
     
@@ -20,8 +21,13 @@
 
     })
 
-    upButton.addEventListener("click", function(){
+    ballImage.addEventListener("click", function(){
 
+        let y=ballImage.offsetTop;
+
+        y=y+50;
+
+        ballImage.style.top=y+'px';
         
     })
 

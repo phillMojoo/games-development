@@ -38,7 +38,7 @@
             ball.style.left=ball.offsetLeft+5+'px';
             break;
     }
-        
+            
     })
 
 

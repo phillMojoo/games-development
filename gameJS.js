@@ -5,7 +5,7 @@
     let loginButton=document.getElementById("loginButton");
     let loginScene=document.getElementById("loginArea");
     let gameScene=document.getElementById("gameScene");
-    let ballImage=document.getElementById("ball");
+    let ball=document.getElementById("ball");
 
   
     
@@ -21,18 +21,26 @@
 
     })
 
-    ballImage.addEventListener("click", function(){
+    window.addEventListener('keydown', function(e){
 
-        let y=ballImage.offsetTop;
+    switch(e.key){
 
-        y=y+50;
-
-        ballImage.style.top=y+'px';
+        case 'ArrowUp':
+            ball.style.top=ball.offsetTop-5+'px';
+            break;
+        case 'ArrowDown':
+            ball.style.top=ball.offsetTop+5+'px';
+            break;
+        case 'ArrowLeft':
+            ball.style.left=ball.offsetLeft-5+'px';
+            break;
+        case 'ArrowRight':
+            ball.style.left=ball.offsetLeft+5+'px';
+            break;
+    }
         
     })
 
-
-    
 
 
 })();

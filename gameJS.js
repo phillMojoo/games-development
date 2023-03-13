@@ -16,7 +16,7 @@
 
     loginButton.addEventListener("click", function(){
      
-        loginScene.style.display="none";
+        loginScene.style.display="";
         gameScene.style.display="inline";
 
     })

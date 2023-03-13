@@ -1,8 +1,17 @@
+import java.util.Scanner;
+
 public class firstClass {
 
     public static void main(String[] args){
 
-        System.out.println("hellow");
-      }
+      Scanner input=new Scanner(System.in);
+
+      int id=6;
+
+      int scnanned=input.nextInt(); 
+
+
+  
+    }
     
 }
